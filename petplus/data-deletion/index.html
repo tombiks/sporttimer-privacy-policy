@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pet+ – Data Deletion Request</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      min-height: 100vh;
+      background: radial-gradient(circle at top, #5a3fa0 0%, #1a0f2e 30%, #0a0612 100%);
+      color: #f0eeff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px 16px;
+    }
+    .card {
+      width: min(680px, 100%);
+      background: rgba(15, 10, 28, 0.85);
+      border: 1px solid rgba(123, 104, 238, 0.22);
+      border-radius: 24px;
+      padding: 40px 32px;
+      box-shadow: 0 24px 64px rgba(0, 0, 0, 0.45);
+      backdrop-filter: blur(10px);
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(123, 104, 238, 0.2);
+      color: #c4b5fd;
+      border: 1px solid rgba(196, 181, 253, 0.3);
+      border-radius: 999px;
+      padding: 6px 16px;
+      font-size: 0.78rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+    h1 {
+      font-size: clamp(1.5rem, 4vw, 2.2rem);
+      background: linear-gradient(135deg, #a78bfa, #7b68ee, #c4b5fd);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 20px;
+    }
+    p { color: #ccc5e8; line-height: 1.75; font-size: 0.95rem; margin-bottom: 14px; }
+    h2 { font-size: 1.05rem; color: #c4b5fd; margin: 24px 0 10px; }
+    ol, ul { color: #ccc5e8; line-height: 1.75; font-size: 0.95rem; padding-left: 20px; margin-bottom: 14px; }
+    li { margin-bottom: 6px; }
+    .highlight-box {
+      background: rgba(123, 104, 238, 0.1);
+      border-left: 3px solid #7b68ee;
+      border-radius: 0 12px 12px 0;
+      padding: 16px 20px;
+      margin: 20px 0;
+    }
+    .email-link {
+      display: inline-block;
+      margin-top: 6px;
+      color: #a78bfa;
+      font-weight: 600;
+      font-size: 1rem;
+      text-decoration: underline;
+    }
+    footer { margin-top: 32px; color: #6a5fa0; font-size: 0.83rem; }
+    footer a { color: #9580d4; text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <span class="badge">Pet+</span>
+    <h1>Data Deletion Request</h1>
+
+    <p>Pet+ stores all your data locally on your device. We do not operate servers that hold your personal data. Here is how to delete your data completely.</p>
+
+    <h2>Option 1 — Delete data on your device</h2>
+    <ol>
+      <li>Open your device <strong>Settings</strong></li>
+      <li>Go to <strong>Apps → Pet+</strong></li>
+      <li>Tap <strong>Storage → Clear Data</strong></li>
+    </ol>
+    <p>This permanently removes all pets, reminders, notes, and photos stored by the app.</p>
+
+    <h2>Option 2 — Uninstall the app</h2>
+    <p>Uninstalling Pet+ removes all locally stored data from your device.</p>
+
+    <h2>Option 3 — Delete your Google Drive backup</h2>
+    <p>If you enabled the Google Drive backup feature:</p>
+    <ol>
+      <li>Open <strong>Google Drive</strong></li>
+      <li>Find the folder named <strong>Pet+</strong></li>
+      <li>Delete the folder and empty the Trash</li>
+    </ol>
+
+    <div class="highlight-box">
+      <p>If you need additional help or want to submit a deletion request by email, contact us:</p>
+      <a class="email-link" href="mailto:support@tombiksstudio.com">support@tombiksstudio.com</a>
+    </div>
+
+    <p>We will respond to email deletion requests within 30 days.</p>
+
+    <footer>
+      © 2026 Tombiks Studio &nbsp;·&nbsp;
+      <a href="/petplus/privacy/">Privacy Policy</a> &nbsp;·&nbsp;
+      <a href="/">Developer Resources</a>
+    </footer>
+  </div>
+</body>
+</html>
